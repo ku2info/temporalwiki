@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --ink: #27221f;
+  --paper: #f3eadc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(120deg, rgba(58, 107, 109, 0.16), transparent 38%),
+    linear-gradient(300deg, rgba(184, 72, 64, 0.13), transparent 42%),
+    var(--paper);
+  color: var(--ink);
+}
+
+button,
+select {
+  font: inherit;
+}
